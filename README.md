@@ -7,12 +7,14 @@ This is a portfolio with all the exercises concluded by me, [Laiza Bertelli](htt
 
 You can check out more about Trybe [here](https://betrybe.com).
 
+Leia em português [🇧🇷](#)
+
 # Index
 
-### [Web Development Fundamentals](#web-development-fundamentals)
-### [Front-end](#front-end)
+### [Web Development Fundamentals](#web-development-fundamentals)  ⏳
+### [Front-end](#front-end-development)
 
-### [Back-end](#back-end)
+### [Back-end](#back-end-development)
 
 ### [Computer Science](#computer-science)
 # Projects
@@ -24,14 +26,14 @@ In addition to the course exercises, projects will also be carried out. They are
 
 # Web Development Fundamentals
 
-Block 01: Unix & Bash
+Block 01: Unix & Bash  ✔️
 
 - [x] Web Development Fundamentals
 - [x] Introduction - Unix & Shell
 - [x] Unix & Bash - Part I
 - [x] Unix & Bash - Part II
 
-Block 02: Git, GitHub and Internet
+Block 02: Git, GitHub and Internet  ⏳
 
 - [x] Git & GitHub - What is it and what is it for
 - [x] Git & GitHub - Understanding the commands
@@ -108,8 +110,63 @@ Block 10: JavaScript automated tests
 - [ ] Jest - Async tests
 - [ ] Jest - Simulating behavior
 - [ ] Project: Jest async and Mocking
-# Front-end
+# Front-end Development
 
-# Back-end
+Block 11: Introduction to React
+
+Block 12: Components with State, Events, and Forms with React
+
+Block 13: Component's life cycle and Reac Router
+
+Block 14: Agile methodologies
+
+Block 15: Automated tests with React Testing Library
+
+Block 16: State management with Redux
+
+Block 17: Project Trivia Game
+
+Block 18: Context API and React Hooks
+
+Block 19: Project recipe app
+# Back-end Development
+
+Block 20: Introduction to SQL
+
+Block 21: SQL Functions. Joins and Subqueries
+
+Block 22: Database normalization and modeling
+
+Block 23: Introduction to MongoDB
+
+Block 24: MongoDB: Simple and complex updates
+
+Block 25: MongoDB: Aggregation Framework
+
+Block 26: Introduction to web development with NodeJS
+
+Block 27: NodeJS: Rest and Restful architecture and service layer
+
+Block 28: Authentication and file upload
+
+Block 29: Deployment
+
+Block 30: Architecture - SOLID and ORM
+
+Block 31: Sockets
+
+Block 32: Project Trybeer
 
 # Computer Science
+
+Block 33: Computer and network architecture
+
+Block 34: Introduction to Python and Web Data Scraping
+
+Block 35: Object-oriented programming and design patterns
+
+Block 36: Algorithms and data Structure
+
+Block 37: Data Structure: Hash and Set
+
+Block 38: Data Structure: stacks, rows, and lists
