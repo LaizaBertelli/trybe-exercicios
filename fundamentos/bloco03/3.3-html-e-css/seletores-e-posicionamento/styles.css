@@ -1,0 +1,24 @@
+
+div:hover{
+    border: 5px solid black;
+}
+
+div[style*="background: red"]{
+    font-size: 30px;
+    font-style:italic;
+}
+div[style*="background: orange"]{
+   text-transform: uppercase;
+}
+div[style*="background: purple"]{
+    color: yellow;
+    height: 50px;
+    font-style:italic;
+}
+div[style*="background: teal"]{
+    text-decoration: line-through;
+}
+div[style*="background: thistle"]{
+    text-align: center;
+    font-style:italic;
+}
