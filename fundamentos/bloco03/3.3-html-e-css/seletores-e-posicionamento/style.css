@@ -1,0 +1,13 @@
+h1, p{
+    text-align: center;
+}
+ol, ul{
+    list-style: none;
+}
+ol:hover{
+    background-color: hotpink;
+}
+
+li:active{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
