@@ -1,0 +1,54 @@
+ ol li{
+     background-color: yellow;
+ }
+
+ ol li.par{
+     color: green;
+ }
+
+ ol li.impar{
+    text-transform: uppercase;
+ }
+ li{
+     font-size: 20px;
+ }
+ li em{
+     font-weight: bold;
+ }
+
+ .header{
+     color: red;
+ }
+ 
+ .header em{
+   
+    font-size: 40px;
+    border: 1px solid black;
+ }
+
+ .primeiros{
+     color: blue;
+ }
+ .java{
+     background-color: pink;
+ }
+
+ .stack-over-flow a:hover{
+
+    color: orange;
+ }
+
+ .w3schools a:hover{
+     color: green;
+ }
+ .mdn a:hover{
+
+    color: black;
+ }
+ .dev-docs a:hover{
+     color: yellow;
+ }
+
+ .trybe a:hover{
+     color: rgb(51, 190, 51);
+ }
