@@ -41,7 +41,7 @@ In addition to the course exercises, projects will also be carried out. They are
 - [x] Git & GitHub - Understanding the commands
 - [x] Internet - Know how it works
 
-[Block 03: Introduction to HTML and CSS ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco03)
+[Block 03: Introduction to HTML and CSS ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco03)
 
 - [x] Introduction - HTML & CSS
 - [x] HTML & CSS - Pages structure
@@ -50,7 +50,7 @@ In addition to the course exercises, projects will also be carried out. They are
 - [x] Semantic HTML
 - [x] Poject: Lessons Learned
 
-[Block 04: Introduction to JavaScript and programming logic](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
+[Block 04: Introduction to JavaScript and programming logic ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
 
 - [ ] Introduction - JavaScript
 - [ ] JavaScript - First steps
