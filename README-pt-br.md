@@ -42,22 +42,22 @@ Além dos exercícios, ao longo do curso também desenvolvemos projetos. Cada um
 - [x] Unix & Bash - Parte I
 - [x] Unix & Bash - Parte 2
 
-[Bloco 2: Git, GitHub e Internet ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco02)
+[Bloco 2: Git, GitHub e Internet ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco02)
 
 - [x] Git & GitHub - O que é e para que serve
 - [x] Git & GitHub: Entendendo os comandos
-- [ ] Internet - Entendendo como ela funciona
+- [x] Internet - Entendendo como ela funciona
 
-[Bloco 03: Introdução à HTML e CSS](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco03)
+[Bloco 03: Introdução à HTML e CSS ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco03)
 
-- [ ] Introdução - HTML & CSS
-- [ ] HTML & CSS - Estruturas de páginas
-- [ ] HTML & CSS - Primeiros passos em CSS
-- [ ] HTML & CSS - Seletores e posicionamento
-- [ ] HTML Semântico
-- [ ] Projeto - Lessons Learned
+- [x] Introdução - HTML & CSS
+- [x] HTML & CSS - Estruturas de páginas
+- [x] HTML & CSS - Primeiros passos em CSS
+- [x] HTML & CSS - Seletores e posicionamento
+- [x] HTML Semântico
+- [x] Projeto - Lessons Learned
 
-[Bloco 04: Introdução à JavaScript e Lógica de Programação](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
+[Bloco 04: Introdução à JavaScript e Lógica de Programação ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
 
 - [ ] Introdução - JavaScript
 - [ ] JavaScript - Primeiros passos
