@@ -28,27 +28,27 @@ In addition to the course exercises, projects will also be carried out. They are
 
 # Web Development Fundamentals
 
-[Block 01: Unix & Bash  ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco01)
+[Block 01: Unix & Bash ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco01)
 
 - [x] Web Development Fundamentals
 - [x] Introduction - Unix & Shell
 - [x] Unix & Bash - Part I
 - [x] Unix & Bash - Part II
 
-[Block 02: Git, GitHub and Internet  ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco02)
+[Block 02: Git, GitHub and Internet ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco02)
 
 - [x] Git & GitHub - What is it and what is it for
 - [x] Git & GitHub - Understanding the commands
-- [ ] Internet - Know how it works
+- [x] Internet - Know how it works
 
-[Block 03: Introduction to HTML and CSS](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco03)
+[Block 03: Introduction to HTML and CSS ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco03)
 
-- [ ] Introduction - HTML & CSS
-- [ ] HTML & CSS - Pages structure
-- [ ] HTML & CSS - First steps into CSS
-- [ ] HTML & CSS - Selectors and positioning
-- [ ] Semantic HTML
-- [ ] Poject: Lessons Learned
+- [x] Introduction - HTML & CSS
+- [x] HTML & CSS - Pages structure
+- [x] HTML & CSS - First steps into CSS
+- [x] HTML & CSS - Selectors and positioning
+- [x] Semantic HTML
+- [x] Poject: Lessons Learned
 
 [Block 04: Introduction to JavaScript and programming logic](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
 
