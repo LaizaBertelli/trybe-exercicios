@@ -1,4 +1,98 @@
 
-img{
-    width: 300px;
+body{
+    background-color: rgb(9, 49, 92);
+    margin: 0;
+    
 }
+a{
+    text-decoration: none;
+    color:springgreen;
+}
+
+header{
+    background-color: rgb(141, 169, 196);
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+article{
+    background-color: rgba(238, 244, 237, 0.2);
+    border-radius: 10px;
+    color:white;
+
+    margin: 60px;
+    
+}
+h1{
+    margin: 15px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 30px;
+}
+section{
+    padding: 30px;
+}
+
+img{
+    width: 50%;
+}
+
+li{
+    list-style: none;
+    color: white;
+}
+
+aside{
+    background-color:rgba(238, 244, 237, 0.2);
+    color:white;
+    height: 50px;;
+    margin: 60px;
+    padding: 15px;
+}
+
+footer{
+    background-color:rgb(141, 169, 196);
+    height: 50px;
+    text-align: center;
+    padding: 30px;
+
+}
+nav{
+    text-align: right;
+}
+
+.nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav-items{
+
+    text-transform: uppercase;
+    
+}
+
+.nav a{
+    color: white;
+}
+
+.sci-infos{
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+}
+.sci-table{
+    margin: auto;
+}
+
+.sci-table th, td{
+    padding: 10px;
+}
+
+
+
