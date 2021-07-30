@@ -1,3 +1,4 @@
+//implementa funções aritméticas básicas, adição, subtração, multiplicação e divisão + módulo.
 function add (a, b){
     console.log(a +b);
 };
@@ -27,3 +28,58 @@ sub(3, 6);
 multiply(3, 6);
 divide(3, 6);
 module(3, 6);
+
+// exercicio 2 - compara dois números
+
+function biggest(a, b){
+    if(a > b){
+        return a;
+    }else {
+        return b;
+    }
+}
+
+console.log(biggest(3, 6));
+
+//exercicio 3
+
+function biggestOf3(a, b, c){
+    if(a >b && a >c){
+        return a;
+    } else if(b > a && b > c){
+        return b;
+    } else {
+        return c;
+    }
+}
+
+console.log(biggestOf3(1, 9, 2));
+
+//exercicio 4
+
+function integer(){
+    const number = 13;
+    if( number >= 0){
+        return "positive";
+    }else{
+        return "negative";
+    }
+}
+
+console.log(integer());
+
+//exercicio 5
+
+function angles (){
+    const internalA = 45;
+    const internalB = 60;
+    const internalC = 80;
+
+    if(internalA + internalB + internalC === 180){
+        return true;
+    } else{
+        return "Error: The sum of the angles exceeded 180 degrees";
+    }
+}
+
+console.log(angles());
