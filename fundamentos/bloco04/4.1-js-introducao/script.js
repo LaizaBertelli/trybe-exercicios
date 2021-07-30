@@ -73,13 +73,15 @@ console.log(integer());
 function angles (){
     const internalA = 45;
     const internalB = 60;
-    const internalC = 80;
+    const internalC = 75;
 
-    if(internalA + internalB + internalC === 180){
-        return true;
-    } else{
-        return "Error: The sum of the angles exceeded 180 degrees";
-    }
+   if((internalA <=0 || internalB <=0) || internalC <= 0 ){
+       return "Error: Negative numbers are not valid."
+   }else if( internalA + internalB + internalC === 180){
+       return true;
+   } else{
+       return false;
+   }
 }
 
 console.log(angles());
