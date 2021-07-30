@@ -85,3 +85,79 @@ function angles (){
 }
 
 console.log(angles());
+
+//exercicio 6
+function chessMoves(chessPiece){
+
+    switch(chessPiece){
+
+        case "rainha":
+            return "lados e diagonais";
+        case "bispo":
+            return "diagonais"
+        case "peão":
+            return "uma casa para frente"
+        case "rei":
+            return "uma casa para qualquer lado"
+        case "cavalo":
+            return "movimento de L - 5 casas no total"
+        case "torre":
+            return "laterais"
+        default: return "Erro: peça invalida";
+    }
+}
+
+console.log(chessMoves("dama"));
+
+//exercicio 7
+
+function score (numberScore){
+
+    if(numberScore >= 90){
+        return "A";
+    } else if(numberScore >= 80){
+        return "B";
+    } else if( numberScore >= 70){
+        return "C";
+    } else if(numberScore >= 60){
+        return "D";
+    } else if(numberScore >= 50){
+        return "E"
+    }else {
+        return "F";
+    }
+}
+
+console.log(score(60));
+
+//exercicio 8
+
+function evenNumber(){
+    const number1 = 10;
+    const number2 = 15;
+    const number3 = 3;
+
+    if((number1%2 === 0 || number2%2 === 0) || number3%2 === 0){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+console.log(evenNumber());
+
+//exercicio 9
+
+function oddNumber(){
+    const number1 = 10;
+    const number2 = 2;
+    const number3 = 4;
+
+    if((number1%2 !== 0 || number2%2 !== 0) || number3%2 !== 0){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+console.log(oddNumber());
