@@ -1,3 +1,4 @@
+//Parte I - Objetos e For/In
 //exercicios 1 - 4
 let info = {
   personagem: 'Margarida',
@@ -28,3 +29,54 @@ for(let key in info, info2){
     console.log("Ambos recorrentes");
   }
 }
+
+//Parte II - Funções
+
+//exercicio 1
+function palindromo(word){
+  let invertedWord = "";
+  //inverte a string
+  invertedWord = word.split('').reverse().join('');
+  //compara as strings
+  if(word === invertedWord){
+    return true;
+  }else{
+    return false;
+  }
+}
+
+console.log(palindromo("arara"));
+
+//exercicio 2
+function indexLarger (intArray){
+  let larger = 0;
+  let index;
+  for(let i = 0; i < intArray.length; i ++){
+    if(intArray[i]> larger){
+      larger = intArray[i];
+      index = i;
+    }
+  }
+  return index;
+}
+let arrayLarger = [2, 3, 6, 7, 10, 1];
+console.log(indexLarger(arrayLarger));
+
+//exercicio 3
+function indexSmaller (intArray){
+  let smaller = 100;
+  let index = 0;
+
+  for(let i = 0; i < intArray.length; i ++){
+    if(intArray[i] < smaller){
+      smaller = intArray[i];
+      index  = i;
+    }
+  }
+  return index;
+}
+
+let arraySmaller = [2, 4, 6, 7, 10, 0, -3];
+console.log(indexSmaller(arraySmaller));
+
+//exercicio 4
