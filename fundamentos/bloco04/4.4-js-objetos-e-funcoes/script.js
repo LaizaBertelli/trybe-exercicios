@@ -80,3 +80,35 @@ let arraySmaller = [2, 4, 6, 7, 10, 0, -3];
 console.log(indexSmaller(arraySmaller));
 
 //exercicio 4
+
+
+// //exercicio 5
+
+
+//exercicio 6
+function summation (n){
+  let sum = 0;
+  for(let i = n; i > 0; i --){
+    sum += i;
+  }
+  return sum;
+}
+console.log(summation(5));
+
+//exercicio 7
+function endingWord( ending, word){
+
+let startPosition = ending.length - word.length;
+let aux = "";
+
+for(let i = startPosition; i < ending.length; i++){
+ aux += ending[i];
+}
+if(aux === word){
+  return true;
+}else{
+  return false;
+}
+}
+
+console.log(endingWord('joaofernando', 'fernan'));
