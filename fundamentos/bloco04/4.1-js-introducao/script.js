@@ -161,3 +161,79 @@ function oddNumber(){
 }
 
 console.log(oddNumber());
+
+//exercicio 10
+
+function profit (){
+    const saleValue = 419.99;
+    const cost = 150.61;
+    let  tax = cost * 0.2;
+    let profit = saleValue - cost - tax;
+
+    if(saleValue <0 || cost <0){
+        return "Error: negative values are not valid"
+    }else{
+        return profit;
+    }
+}
+
+console.log(profit());
+
+//exercicio 11
+
+function netSalary ( salary){ //calcula o salário líquido com base no salário bruto
+
+    let tax = 0;
+    let inss = 0;
+    let ir =0;
+    let deduction;
+
+    //inss
+    if(salary < 1556.95){
+        tax = 0.08;
+        inss = salary*tax;
+    }else if(salary <2594.92){
+        tax = 0.09;
+        inss = salary*tax;
+    }else if(salary < 5189.82 ){
+        tax = 0.11;
+        inss = salary*tax;
+    } else{
+        inss = 570.88;
+    }
+    salary = salary - inss;
+    //ir
+    if(salary < 1903.98){
+        ir = 0;
+    }else if(salary < 2826.65){
+
+        tax = salary*0.075;
+        deduction = 142.80;
+
+        ir = tax - deduction;
+
+    }else if(salary < 3751.05){
+
+        tax = salary*0.15;
+        deduction = 354.80;
+
+        ir = tax - deduction;
+
+    }else if(salary < 4664.68){
+        tax = salary*0.225;
+        deduction = 636.13;
+
+        ir = tax - deduction;
+
+    }else{ 
+        tax = salary*0.275;
+        deduction = 869.36;
+
+        ir = tax - deduction;
+    }
+    
+    return salary - ir;
+
+}
+
+console.log(netSalary(3000.00));
