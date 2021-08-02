@@ -57,3 +57,15 @@ for(var i = 0; i < numbers.length; i++){
     }
 }
 console.log(smaller);
+
+//exercicio 8
+let orderedNumbers = [];
+for(var i = 1; i <26; i++){
+    orderedNumbers.push(i);
+}
+console.log(orderedNumbers);
+
+//exercicio 9
+for(var i = 0; i < orderedNumbers.length; i++){
+    console.log(orderedNumbers[i]/2);
+}
