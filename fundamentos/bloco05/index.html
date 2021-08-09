@@ -78,6 +78,12 @@
     }
 
     // Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+    function printText() {
+      const print = document.getElementsByTagName("p");
+      for (let i = 0; i < print.length; i++) {
+        console.log(print[i]);
+      }
+    }
 
     //call functions
     futureMe();
