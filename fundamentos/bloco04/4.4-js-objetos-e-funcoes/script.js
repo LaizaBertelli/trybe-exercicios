@@ -6,13 +6,13 @@ let info = {
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
   recorrente: 'Sim',
 };
-console.log("Bem-vinda, " + info.personagem);
+// console.log("Bem-vinda, " + info.personagem);
 
 for(let key in info){
-  console.log(key);
+  // console.log(key);
 }
 for(let value in info){
-  console.log(info[value]);
+  // console.log(info[value]);
 }
 
 //exercicio 5
@@ -24,9 +24,9 @@ let info2 = {
 };
 
 for(let key in info, info2){
-  console.log(info[key] + " e " + info2[key]); //não pode imprimir o Sim e Sim corrigir depois
+  // console.log(info[key] + " e " + info2[key]); //não pode imprimir o Sim e Sim corrigir depois
   if(info.recorrente === info2.recorrente){
-    console.log("Ambos recorrentes");
+    // console.log("Ambos recorrentes");
   }
 }
 
@@ -45,7 +45,7 @@ function palindromo(word){
   }
 }
 
-console.log(palindromo("arara"));
+// console.log(palindromo("arara"));
 
 //exercicio 2
 function indexLarger (intArray){
@@ -60,7 +60,7 @@ function indexLarger (intArray){
   return index;
 }
 let arrayLarger = [2, 3, 6, 7, 10, 1];
-console.log(indexLarger(arrayLarger));
+// console.log(indexLarger(arrayLarger));
 
 //exercicio 3
 function indexSmaller (intArray){
@@ -77,13 +77,36 @@ function indexSmaller (intArray){
 }
 
 let arraySmaller = [2, 4, 6, 7, 10, 0, -3];
-console.log(indexSmaller(arraySmaller));
+// console.log(indexSmaller(arraySmaller));
 
 //exercicio 4
 
 
 // //exercicio 5
+function mostRepeated (intArray){
 
+  let mostRep;
+  let secondMost = 0;
+  let timesRepeated = 0;
+
+  for( let i = 0; i < intArray.length; i ++){
+    for(let j = 0; j < intArray.length; i++){
+      if(intArray[i] === intArray[j]);
+      secondMost++;
+    }
+    if(timesRepeated < secondMost){
+      timesRepeated = secondMost;
+      mostRep = intArray[i];
+    }
+    secondMost = 0;
+  }
+
+  return mostRep;
+}
+
+let intTestArray = [2, 3, 2, 5, 8, 2, 3];
+console.log("O mais repetido foi:");
+console.log(mostRepeated(intTestArray));
 
 //exercicio 6
 function summation (n){
@@ -93,7 +116,7 @@ function summation (n){
   }
   return sum;
 }
-console.log(summation(5));
+// console.log(summation(5));
 
 //exercicio 7
 function endingWord( ending, word){
@@ -111,4 +134,4 @@ if(aux === word){
 }
 }
 
-console.log(endingWord('joaofernando', 'fernan'));
+// console.log(endingWord('joaofernando', 'fernan'));
