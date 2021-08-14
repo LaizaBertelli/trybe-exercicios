@@ -18,3 +18,8 @@ body.appendChild(main);
 let centerSection = document.createElement('section');
 section.classList.add("center-content");
 main.appendChild(centerSection);
+
+//adiciona um parágrafo a centerSection
+let p = document.createElement('p');
+p.innerText = text[1];
+centerSection.appendChild(p);
