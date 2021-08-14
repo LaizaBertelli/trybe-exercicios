@@ -23,3 +23,8 @@ main.appendChild(centerSection);
 let p = document.createElement('p');
 p.innerText = text[1];
 centerSection.appendChild(p);
+
+//Adiciona uma section à esquerda
+let leftSection = document.createElement('section');
+leftSection.classList.add("left-content");
+main.appendChild(leftSection);
