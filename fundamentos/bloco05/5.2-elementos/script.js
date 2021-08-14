@@ -4,6 +4,18 @@ var text = [
   'Algum texto',
 ]
 var imageSrc = 'https://picsum.photos/200'
+var listItems = [
+  'um',
+  'dois',
+  'três',
+  'quatro',
+  'cinco',
+  'seis',
+  'sete',
+  'oito',
+  'nove',
+  'dez'
+]
 
 //cria uma tag h1 contendo um título
 let title = document.createElement('h1');
@@ -41,3 +53,14 @@ image.classList.add("small-image");
 image.src = imageSrc;
 
 leftSection.appendChild(image);
+
+//Adiciona lista não ordenada
+let ul = document.createElement('ul');
+rightSection.appendChild(ul);
+
+let list = [];
+for(let i = 0; i < listItems.length; i++){
+  list[i] = document.createElement('li');
+  list[i].innerText = listItems[i];
+  ul.appendChild(list[i]);
+}
