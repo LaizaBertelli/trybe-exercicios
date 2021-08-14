@@ -88,3 +88,7 @@ centerSection.parentElement.style.backgroundColor = 'green';
 
 //Remove leftSection
 main.removeChild(leftSection);
+
+//Remove dois elementos da lista
+ul.removeChild(list[8]);
+ul.removeChild(list[9]);
