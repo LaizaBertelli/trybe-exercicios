@@ -82,3 +82,6 @@ for(let i =0; i < 3; i ++){
 
 //Centraliza rightCenter
 rightSection.style.marginRight = "auto";
+
+//Troca cor de fundo de main;
+centerSection.parentElement.style.backgroundColor = 'green';
