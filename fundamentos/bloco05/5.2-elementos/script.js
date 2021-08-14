@@ -71,3 +71,6 @@ for(let i = 0; i < 3; i ++){
   h3[i] = document.createElement('h3');
   main.appendChild(h3[i]);
 }
+
+//Adiciona classe title à h1
+title.classList.add("title");
