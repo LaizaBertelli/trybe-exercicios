@@ -16,7 +16,7 @@ body.appendChild(main);
 
 // adiciona uma section central
 let centerSection = document.createElement('section');
-section.classList.add("center-content");
+centerSection.classList.add("center-content");
 main.appendChild(centerSection);
 
 //adiciona um parágrafo a centerSection
@@ -28,3 +28,8 @@ centerSection.appendChild(p);
 let leftSection = document.createElement('section');
 leftSection.classList.add("left-content");
 main.appendChild(leftSection);
+
+//Adiciona uma section à direita
+let rightSection  = document.createElement('section');
+rightSection.classList.add("right-content");
+main.appendChild(rightSection);
