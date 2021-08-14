@@ -74,3 +74,8 @@ for(let i = 0; i < 3; i ++){
 
 //Adiciona classe title à h1
 title.classList.add("title");
+
+//Adiciona classe description à h3
+for(let i =0; i < 3; i ++){
+  h3[i].classList.add("description");
+}
