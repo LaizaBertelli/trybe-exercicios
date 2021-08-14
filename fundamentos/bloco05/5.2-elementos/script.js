@@ -79,3 +79,6 @@ title.classList.add("title");
 for(let i =0; i < 3; i ++){
   h3[i].classList.add("description");
 }
+
+//Centraliza rightCenter
+rightSection.style.marginRight = "auto";
