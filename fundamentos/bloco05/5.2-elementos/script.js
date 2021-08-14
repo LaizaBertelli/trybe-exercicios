@@ -85,3 +85,6 @@ rightSection.style.marginRight = "auto";
 
 //Troca cor de fundo de main;
 centerSection.parentElement.style.backgroundColor = 'green';
+
+//Remove leftSection
+main.removeChild(leftSection);
