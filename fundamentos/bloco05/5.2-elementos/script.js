@@ -1,8 +1,9 @@
 var body = document.body;
 var text = [
   'Exercício 5.2 - JavaScript DOM',
-  'Algum texto'
+  'Algum texto',
 ]
+var imageSrc = 'https://picsum.photos/200'
 
 //cria uma tag h1 contendo um título
 let title = document.createElement('h1');
@@ -33,3 +34,10 @@ main.appendChild(leftSection);
 let rightSection  = document.createElement('section');
 rightSection.classList.add("right-content");
 main.appendChild(rightSection);
+
+//Adiciona uma imagem à leftSection
+let image = document.createElement('img');
+image.classList.add("small-image");
+image.src = imageSrc;
+
+leftSection.appendChild(image);
