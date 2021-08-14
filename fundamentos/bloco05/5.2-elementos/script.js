@@ -64,3 +64,10 @@ for(let i = 0; i < listItems.length; i++){
   list[i].innerText = listItems[i];
   ul.appendChild(list[i]);
 }
+
+//adiciona tags h3
+let h3 = [];
+for(let i = 0; i < 3; i ++){
+  h3[i] = document.createElement('h3');
+  main.appendChild(h3[i]);
+}
