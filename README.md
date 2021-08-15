@@ -50,24 +50,24 @@ In addition to the course exercises, projects will also be carried out. They are
 - [x] Semantic HTML
 - [x] Poject: Lessons Learned
 
-[Block 04: Introduction to JavaScript and programming logic ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
+[Block 04: Introduction to JavaScript and programming logic ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
 
-- [ ] Introduction - JavaScript
-- [ ] JavaScript - First steps
-- [ ] JavaScript - Arrays and For loop
-- [ ] JavaScript - Programming logic and Algorithms
-- [ ] JavaScript - Objects and functions
-- [ ] Project: Playground Functions
+- [x] Introduction - JavaScript
+- [x] JavaScript - First steps
+- [x] JavaScript - Arrays and For loop
+- [x] JavaScript - Programming logic and Algorithms
+- [x] JavaScript - Objects and functions
+- [x] Project: Playground Functions
 
 
-[Block 05: JavaScript: DOM, Events and Web Storage](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
+[Block 05: JavaScript: DOM, Events and Web Storage ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
 
-- [ ] JavaScript - DOM and Selectors
-- [ ] JavaScript - Working with elements
-- [ ] JavaScript - Events
-- [ ] JavaScript - Web Storage
-- [ ] Fundamentals - JavaScript - Projects
-- [ ] Project: Art with pixels
+- [x] JavaScript - DOM and Selectors
+- [x] JavaScript - Working with elements
+- [x] JavaScript - Events
+- [x] JavaScript - Web Storage
+- [x] Fundamentals - JavaScript - Projects
+- [x] Project: Art with pixels
 - [ ] Project: To-do List
 - [ ] (bonus)Project: Meme generator
 - [ ] (bonus)Project: Guess the color

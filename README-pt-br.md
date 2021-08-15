@@ -57,22 +57,22 @@ Além dos exercícios, ao longo do curso também desenvolvemos projetos. Cada um
 - [x] HTML Semântico
 - [x] Projeto - Lessons Learned
 
-[Bloco 04: Introdução à JavaScript e Lógica de Programação ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
+[Bloco 04: Introdução à JavaScript e Lógica de Programação ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco04)
 
-- [ ] Introdução - JavaScript
-- [ ] JavaScript - Primeiros passos
-- [ ] JavaScript - Array e loop For
-- [ ] JavaScrip - Lógica de Programação e Algoritmos
-- [ ] JavaScript - Objetos e funções
-- [ ] Projeto: Playground Functions
+- [x] Introdução - JavaScript
+- [x] JavaScript - Primeiros passos
+- [x] JavaScript - Array e loop For
+- [x] JavaScrip - Lógica de Programação e Algoritmos
+- [x] JavaScript - Objetos e funções
+- [x] Projeto: Playground Functions
 
-[Bloco 05: JavaScript: DOM, Eventos e Web Storage](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
+[Bloco 05: JavaScript: DOM, Eventos e Web Storage ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
 
-- [ ] JavaScript - DOM e seletores
-- [ ] JavaScript - Trabalhando com elementos
-- [ ] Java Script - Eventos
-- [ ] JavaScript - Web Storage
-- [ ] Fundamentos - JavaScript - Projetos
+- [x] JavaScript - DOM e seletores
+- [x] JavaScript - Trabalhando com elementos
+- [x] Java Script - Eventos
+- [x] JavaScript - Web Storage
+- [x] Fundamentos - JavaScript - Projetos
 - [ ] Projeto - Lista de tarefas
 - [ ] (Bônus)Projeto - Meme Generator
 - [ ] (Bônus)Projeto - Adivinhe a Cor
