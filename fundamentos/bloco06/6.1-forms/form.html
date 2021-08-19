@@ -12,6 +12,7 @@
 
 <body>
   <fieldset id="personal-data">
+    <h1>Dados Pessoais</h1>
     <!-- nome-texto | limite de 40 caracteres | required -->
     <label for="user-name">Nome Completo:</label>
     <input id="user-name" type="text" placeholder="Hanji Zoe" required> <br> <br>
@@ -35,7 +36,19 @@
     <input id="radio-address-apartment" type="radio" name="address-type" value="apartment">
     <label for="radio-address-apartment">Apartamento</label>
 
+  </fieldset>
+  <fieldset id="last-job-data">
+    <label for="curriculum">Resumo do currículo:</label>
+    <input type="text" name="curriculum" id="curriculum" required> <br> <br>
 
+    <label for="job">Cargo:</label>
+    <input type="text" id="job" required> <br> <br>
+
+    <label for="job-description">Descrição do cargo:</label>
+    <input type="text" id="job-description" required> <br> <br>
+
+    <label for="start-date">Data de início:</label>
+    <input type="text" id="start-date" required>
   </fieldset>
   <script src="script.js"></script>
 </body>
