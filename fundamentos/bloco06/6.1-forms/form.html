@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>6.1 Forms</title>
+</head>
+
+<body>
+  <fieldset id="personal-data">
+    <!-- nome-texto | limite de 40 caracteres | required -->
+    <label for="user-name">Nome Completo:</label>
+    <input id="user-name" type="text" placeholder="Hanji Zoe" required> <br> <br>
+    <!-- email - texto | limite de 50 caracteres | required-->
+    <label for="user-email">Email:</label>
+    <input type="email" id="user-email" placeholder="hanjiZoe@gmail.com" required> <br> <br>
+    <!-- CPF - texto | limite de 11 caracteres | required -->
+    <label for="user-cpf">CPF:</label>
+    <input type="text" id="user-cpf" placeholder="Digite apenas números" required> <br> <br>
+    <!-- endereço - texto | limite de 200 caracteres | required -->
+    <label for="user-address">Endereço:</label>
+    <input id="user-address" type="text" required> <br> <br>
+    <!-- Cidade - texto | limite de 200 caracteres | required -->
+    <label for="user-city">Cidade:</label>
+    <input id="user-city" type="text" required> <br> <br>
+    <!-- estado - select | todos os estados do brasil | required -->
+
+    <!-- radio-button tipo de moradia -->
+    <input id="radio-address-house" type="radio" name="address-type" value="house">
+    <label for="radio-address-house">Casa</label>
+    <input id="radio-address-apartment" type="radio" name="address-type" value="apartment">
+    <label for="radio-address-apartment">Apartamento</label>
+
+
+  </fieldset>
+  <script src="script.js"></script>
+</body>
+
+</html>
