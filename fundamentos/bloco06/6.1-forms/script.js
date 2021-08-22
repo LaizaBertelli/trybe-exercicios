@@ -14,6 +14,7 @@ const answers = document.getElementById('answers');
 const ulUserData = document.getElementById('user-data');
 const ulJobData = document.getElementById('last-job');
 const stateOptions = document.getElementById('state-options');
+const clearButton = document.getElementById('clear');
 
 //dados do último emprego;
 const curriculumInput = document.getElementById('curriculum');
@@ -118,6 +119,19 @@ function check (event) {
   }
 }
 
+function clear() {
+  let userList = document.querySelectorAll('#user-data li');
+  let jobList = document.querySelectorAll('#last-job li');
+
+  for(let key of userList) {
+    ulUserData.removeChild(key);
+  }
+
+  for(let key of jobList) {
+    ulJobData.removeChild(key);
+  }
+}
+
 function addEvent() {
   const preventButton = document.querySelector('.submit-button');
   preventButton.addEventListener('click', prevent);
@@ -125,6 +139,7 @@ function addEvent() {
   preventButton.addEventListener('click', getLastJobValues);
   house.addEventListener('click', check);
   apartment.addEventListener('click', check);
+  clearButton.addEventListener('click', clear);
 }
 
 addEvent();
