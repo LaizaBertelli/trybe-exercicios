@@ -6,6 +6,7 @@ const userAddressInput = document.getElementById('user-address');
 const userCityInput = document.getElementById('user-city');
 const house = document.getElementById('radio-address-house');
 const apartment = document.getElementById('radio-address-apartment');
+const addresType = document.getElementById('radio-buttons');
 
 //general elements
 const body = document.body;
@@ -96,11 +97,24 @@ function getLastJobValues() {
   createLastJobInfos(jobData);
 }
 
+function check (event) {
+  let radioEvent = event.target;
+  if(radioEvent === house){
+    house.setAttribute('checked', '');
+    apartment.removeAttribute('checked', '');
+  } else {
+    house.removeAttribute('checked', '');
+    apartment.setAttribute('checked', '');
+  }
+}
+
 function addEvent() {
   const preventButton = document.querySelector('.submit-button');
   preventButton.addEventListener('click', prevent);
   preventButton.addEventListener('click', getUserValues);
   preventButton.addEventListener('click', getLastJobValues);
+  house.addEventListener('click', check);
+  apartment.addEventListener('click', check);
 }
 
 addEvent();
@@ -121,4 +135,6 @@ addOptions();
  criar um alert se os dados não forem válidos
  Colocar valores de acordo com o estado no options
  pegar resultado do options
+
+ getAttribute() e setAttribute();
  */
