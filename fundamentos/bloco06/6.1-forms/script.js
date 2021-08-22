@@ -4,11 +4,15 @@ const userEmailInput = document.getElementById('user-email');
 const userCPFInput = document.getElementById('user-cpf');
 const userAddressInput = document.getElementById('user-address');
 const userCityInput = document.getElementById('user-city');
+const house = document.getElementById('radio-address-house');
+const apartment = document.getElementById('radio-address-apartment');
+
 //general elements
 const body = document.body;
 const answers = document.getElementById('answers');
 const ulUserData = document.getElementById('user-data');
 const ulJobData = document.getElementById('last-job');
+const stateOptions = document.getElementById('state-options');
 
 //dados do último emprego;
 const curriculumInput = document.getElementById('curriculum');
@@ -16,6 +20,36 @@ const jobInput = document.getElementById('job');
 const jobDescriptionInput = document.getElementById('job-description');
 const startDateInput = document.getElementById('start-date');
 
+//lista com todos os estados do Brasil
+let statesList = [
+  'Acre',
+  'Alagoas',
+  'Amapá',
+  'Amazonas',
+  'Bahia',
+  'Ceará',
+  'Espírito Santo',
+  'Goiás',
+  'Maranhão',
+  'Mato Grosso',
+  'Mato Grosso do Sul',
+  'Minas Gerais',
+  'Pará',
+  'Paraíba',
+  'Paraná',
+  'Pernambuco',
+  'Piauí',
+  'Rio de Janeiro',
+  'Rio Grande do Norte',
+  'Rio Grande do Sul',
+  'Rondônia',
+  'Roraima',
+  'Santa Catarina',
+  'São Paulo',
+  'Sergipe',
+  'Tocantins',
+  'Distrito Federal'
+]
 function prevent(event) {
   const preventEvent = event;
   preventEvent.preventDefault();
@@ -71,7 +105,20 @@ function addEvent() {
 
 addEvent();
 
+function addOptions() {
+  for(let key of statesList) {
+    let opt = document.createElement('option');
+    opt.innerText = key;
+    stateOptions.appendChild(opt);
+  }
+}
+addOptions();
+
 /* O que está faltando?
+  pegar o valor dos radio button
+ 
  Fazer verificações em cada valor
  criar um alert se os dados não forem válidos
+ Colocar valores de acordo com o estado no options
+ pegar resultado do options
  */
