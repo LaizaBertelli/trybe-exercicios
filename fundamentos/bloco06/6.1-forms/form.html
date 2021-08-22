@@ -1,55 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   <title>6.1 Forms</title>
 </head>
 
 <body>
-  <fieldset id="personal-data">
-    <h1>Dados Pessoais</h1>
-    <!-- nome-texto | limite de 40 caracteres | required -->
-    <label for="user-name">Nome Completo:</label>
-    <input id="user-name" type="text" placeholder="Hanji Zoe" required> <br> <br>
-    <!-- email - texto | limite de 50 caracteres | required-->
-    <label for="user-email">Email:</label>
-    <input type="email" id="user-email" placeholder="hanjiZoe@gmail.com" required> <br> <br>
-    <!-- CPF - texto | limite de 11 caracteres | required -->
-    <label for="user-cpf">CPF:</label>
-    <input type="text" id="user-cpf" placeholder="Digite apenas números" required> <br> <br>
-    <!-- endereço - texto | limite de 200 caracteres | required -->
-    <label for="user-address">Endereço:</label>
-    <input id="user-address" type="text" required> <br> <br>
-    <!-- Cidade - texto | limite de 200 caracteres | required -->
-    <label for="user-city">Cidade:</label>
-    <input id="user-city" type="text" required> <br> <br>
-    <!-- estado - select | todos os estados do brasil | required -->
+  <form action="" method="GET" enctype="multipart/form-data">
+    <fieldset id="personal-data">
+      <legend>Dados Pessoais</legend>
+      <!-- nome-texto | limite de 40 caracteres |  -->
+      <label for="user-name">Nome Completo:</label>
+      <input id="user-name" type="text" placeholder="Hanji Zoe"> <br> <br>
+      <!-- email - texto | limite de 50 caracteres | -->
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" placeholder="hanjiZoe@gmail.com"> <br> <br>
+      <!-- CPF - texto | limite de 11 caracteres |  -->
+      <label for="user-cpf">CPF:</label>
+      <input type="text" id="user-cpf" placeholder="Digite apenas números"> <br> <br>
+      <!-- endereço - texto | limite de 200 caracteres |  -->
+      <label for="user-address">Endereço:</label>
+      <input id="user-address" type="text"> <br> <br>
+      <!-- Cidade - texto | limite de 200 caracteres |  -->
+      <label for="user-city">Cidade:</label>
+      <input id="user-city" type="text"> <br> <br>
+      <!-- estado - select | todos os estados do brasil |  -->
 
-    <!-- radio-button tipo de moradia -->
-    <input id="radio-address-house" type="radio" name="address-type" value="house">
-    <label for="radio-address-house">Casa</label>
-    <input id="radio-address-apartment" type="radio" name="address-type" value="apartment">
-    <label for="radio-address-apartment">Apartamento</label>
+      <!-- radio-button tipo de moradia -->
+      <input id="radio-address-house" type="radio" name="address-type" value="house">
+      <label for="radio-address-house">Casa</label>
+      <input id="radio-address-apartment" type="radio" name="address-type" value="apartment">
+      <label for="radio-address-apartment">Apartamento</label>
 
-  </fieldset>
-  <fieldset id="last-job-data">
-    <label for="curriculum">Resumo do currículo:</label>
-    <input type="text" name="curriculum" id="curriculum" required> <br> <br>
+    </fieldset>
+    <fieldset id="last-job-data">
+      <legend>Dados do último emprego</legend>
 
-    <label for="job">Cargo:</label>
-    <input type="text" id="job" required> <br> <br>
+      <label for="curriculum">Resumo do currículo:</label>
+      <textarea name="curriculum" id="curriculum" cols="30" rows="10"></textarea>
 
-    <label for="job-description">Descrição do cargo:</label>
-    <input type="text" id="job-description" required> <br> <br>
+      <label for="job">Cargo:</label>
+      <textarea name="job" id="job" cols="30" rows="10"></textarea> <br> <br>
 
-    <label for="start-date">Data de início:</label>
-    <input type="text" id="start-date" required>
-  </fieldset>
+      <label for="job-description">Descrição do cargo:</label>
+      <textarea name="job-description" id="job-description" cols="30" rows="10"></textarea> <br> <br>
+      <!-- <input type="text" id="job-description" > <br> <br> -->
+
+      <label for="start-date">Data de início:</label>
+      <input type="text" id="start-date">
+    </fieldset>
+    <button class="submit-button" type="submit">Enviar</button>
+  </form>
+  <div id="answers">
+    <section id="personal">
+      <h1>Dados Pessoais:</h1>
+      <ul id="user-data"></ul>
+    </section>
+    <section id="carrier">
+      <h1>Dados do último emprego:</h1>
+      <ul id="last-job"></ul>
+    </section>
+  </div>
   <script src="script.js"></script>
 </body>
 
