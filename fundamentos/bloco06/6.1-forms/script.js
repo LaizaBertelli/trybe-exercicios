@@ -64,6 +64,16 @@ function createUserInfos(userInfos) {
     ulUserData.appendChild(li);
     console.log(userInfos[key]);
   }
+  let radioLi = document.createElement('li');
+  let checked = '';
+  if(house.hasAttribute('checked')){
+    checked = 'Casa';
+  }
+  if(apartment.hasAttribute('checked')){
+    checked = 'Apartamento';
+  }
+  radioLi.innerText = checked;
+  ulUserData.appendChild(radioLi);
  }
 
 function createLastJobInfos (lastJob){
@@ -129,7 +139,6 @@ function addOptions() {
 addOptions();
 
 /* O que está faltando?
-  pegar o valor dos radio button
  
  Fazer verificações em cada valor
  criar um alert se os dados não forem válidos
