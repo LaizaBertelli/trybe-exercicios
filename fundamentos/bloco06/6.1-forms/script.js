@@ -15,6 +15,8 @@ const ulUserData = document.getElementById('user-data');
 const ulJobData = document.getElementById('last-job');
 const stateOptions = document.getElementById('state-options');
 const clearButton = document.getElementById('clear');
+const errors = document.getElementById('errors');
+const errorsList = document.getElementById('errors-list');
 
 //dados do último emprego;
 const curriculumInput = document.getElementById('curriculum');
@@ -85,6 +87,24 @@ function createLastJobInfos (lastJob){
   }
 }
 
+function errorMessage (key) {
+  let erro = `Erro, preencha o campo: ${key}`;
+  let li = document.createElement('li');
+  li.innerText = erro;
+  errorsList.appendChild(li);
+  console.log('Estive aqui');
+}
+function validateInputs(objJob) {
+  for(let key in objJob) {
+    if(objJob[key] === ''){
+      errorMessage(key);
+      alert('Dados Inválidos !!!');
+      return false;
+    } 
+  }
+  return true;
+}
+
 function getUserValues() {
   let userData = {
     name: userNameInput.value,
@@ -93,8 +113,10 @@ function getUserValues() {
     addres: userAddressInput.value,
     city: userCityInput.value,
   };
-  console.log(userData);
-  createUserInfos(userData);
+  let validated = validateInputs(userData);
+  if(validated === true) {
+    createUserInfos(userData);
+  }
 }
 
 function getLastJobValues() {
@@ -104,8 +126,10 @@ function getLastJobValues() {
     jobDescription: jobDescriptionInput.value,
     startDate: startDateInput.value,
   };
-  console.log(jobData);
-  createLastJobInfos(jobData);
+  let validated = validateInputs(jobData);
+   if(validated === true) {
+     createLastJobInfos(jobData);
+  }
 }
 
 function check (event) {
@@ -159,6 +183,4 @@ addOptions();
  criar um alert se os dados não forem válidos
  Colocar valores de acordo com o estado no options
  pegar resultado do options
-
- getAttribute() e setAttribute();
  */
