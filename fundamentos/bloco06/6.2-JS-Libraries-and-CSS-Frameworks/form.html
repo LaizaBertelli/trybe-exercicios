@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>6.1 Forms</title>
+</head>
+
+<body>
+  <form action="" method="GET" enctype="multipart/form-data">
+    <fieldset id="personal-data">
+      <legend>Dados Pessoais</legend>
+      <!-- nome-texto | limite de 40 caracteres |  -->
+      <label for="user-name">Nome Completo:</label>
+      <input id="user-name" type="text" placeholder="Hanji Zoe" maxlength="40" required> <br> <br>
+      <!-- email - texto | limite de 50 caracteres | -->
+      <label for="user-email">Email:</label>
+      <input type="email" id="user-email" placeholder="hanjiZoe@gmail.com" maxlength="50" required> <br> <br>
+      <!-- CPF - texto | limite de 11 caracteres |  -->
+      <label for="user-cpf">CPF:</label>
+      <input type="text" id="user-cpf" placeholder="Digite apenas números" maxlength="11" required> <br> <br>
+      <!-- endereço - texto | limite de 200 caracteres |  -->
+      <label for="user-address">Endereço:</label>
+      <input id="user-address" type="text" maxlength="200" required> <br> <br>
+      <!-- Cidade - texto | limite de 200 caracteres |  -->
+      <label for="user-city">Cidade:</label>
+      <input id="user-city" type="text" maxlength="28" required> <br> <br>
+      <!-- estado - select | todos os estados do brasil |  -->
+      <label for="user-state">Estado:</label>
+      <select name="" id="user-state" required>
+        <optgroup id="state-options">
+
+        </optgroup>
+      </select>
+      <!-- radio-button tipo de moradia -->
+      <section id="radio-buttons">
+        <input id="radio-address-house" type="radio" name="address-type" value="house" class="radio" required>
+        <label for="radio-address-house">Casa</label>
+        <input id="radio-address-apartment" type="radio" name="address-type" value="apartment" class="radio" checked
+          required>
+        <label for="radio-address-apartment">Apartamento</label>
+      </section>
+    </fieldset>
+
+    <fieldset id="last-job-data">
+      <legend>Dados do último emprego</legend>
+
+      <label for="curriculum">Resumo do currículo:</label>
+      <textarea name="curriculum" id="curriculum" cols="30" rows="10" maxlength="1000" required></textarea>
+
+      <label for="job">Cargo:</label>
+      <textarea name="job" id="job" cols="30" rows="10" maxlength="40" required></textarea> <br> <br>
+
+      <label for="job-description">Descrição do cargo:</label>
+      <textarea name="job-description" id="job-description" cols="30" rows="10" maxlength="500" required></textarea>
+      <br> <br>
+      <!-- <input type="text" id="job-description" > <br> <br> -->
+
+      <label for="start-date">Data de início:</label>
+      <input type="text" id="start-date">
+    </fieldset>
+    <button class="submit-button" type="submit">Enviar</button>
+  </form>
+  <div id="answers">
+    <section id="personal">
+      <ul id="user-data"></ul>
+    </section>
+    <section id="carrier">
+      <ul id="last-job"></ul>
+    </section>
+    <section id="errors">
+      <ul id="errors-list"></ul>
+    </section>
+  </div>
+  <button id="clear">Limpar</button>
+  <script src="script.js"></script>
+</body>
+
+</html>
