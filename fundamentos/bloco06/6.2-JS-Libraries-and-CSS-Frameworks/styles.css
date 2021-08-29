@@ -1,0 +1,10 @@
+form {
+  margin: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fieldset {
+  margin: 15px;
+  padding: 15px;
+}
