@@ -22,6 +22,8 @@ function addShift(lesson2) {
   lesson2.turno = 'manhã';
 }
 
+addShift(lesson2);
+
 function listKeys(object) {
   const keysList = Object.keys(object);
   return keysList;
@@ -36,5 +38,11 @@ function objValues(object) {
   let valueList = Object.values(object);
   return valueList;
 }
+
+function groupObjects(lesson1, lesson2, lesson3) {
+  let allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
+  console.log(allLessons);
+}
+groupObjects(lesson1, lesson2, lesson3);
 
 addShift(lesson2);
