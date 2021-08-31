@@ -17,3 +17,9 @@ const lesson3 = {
   professor: 'Maria Clara',
   turno: 'noite',
 };
+
+function addShift(lesson2) {
+  lesson2.turno = 'manhã';
+}
+
+addShift(lesson2);
