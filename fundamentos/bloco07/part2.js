@@ -42,7 +42,20 @@ function objValues(object) {
 function groupObjects(lesson1, lesson2, lesson3) {
   let allLessons = Object.assign({}, {lesson1, lesson2, lesson3});
   console.log(allLessons);
+  return allLessons
 }
-groupObjects(lesson1, lesson2, lesson3);
 
 addShift(lesson2);
+
+function totalStudents () {
+  let allLessons = groupObjects(lesson1, lesson2, lesson3);
+  let students1 = allLessons.lesson1.numeroEstudantes;
+  let students2 = allLessons.lesson2.numeroEstudantes;
+  let students3 = allLessons.lesson3.numeroEstudantes;
+  let total = students1 + students2 + students3;
+  return total;
+}
+
+totalStudents();
+
+
