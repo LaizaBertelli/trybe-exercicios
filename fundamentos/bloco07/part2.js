@@ -64,4 +64,15 @@ function getValueByNumber(lesson, number) {
   return lessonKeys[number];
 }
 
-getValueByNumber(lesson2, 0);
+function verifyPropertie(object, key, value) {
+  const objectKeys = Object.keys(object);
+  const objectValues = Object.values(object);
+  for(let i = 0; i< objectKeys.length; i ++) {
+    if(key === objectKeys[i] && value === objectValues[i]){
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(verifyPropertie(lesson3, 'materia', 'Maria Clara'));
