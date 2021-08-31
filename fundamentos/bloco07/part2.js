@@ -27,4 +27,9 @@ function listKeys(object) {
   return keysList;
 }
 
+function objLength(object) {
+  let keys = listKeys(object);
+  return keys.length;
+}
+
 addShift(lesson2);
