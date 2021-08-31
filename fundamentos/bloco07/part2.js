@@ -32,4 +32,9 @@ function objLength(object) {
   return keys.length;
 }
 
+function objValues(object) {
+  let valueList = Object.values(object);
+  return valueList;
+}
+
 addShift(lesson2);
