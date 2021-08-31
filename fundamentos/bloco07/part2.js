@@ -22,4 +22,9 @@ function addShift(lesson2) {
   lesson2.turno = 'manhã';
 }
 
+function listKeys(object) {
+  const keysList = Object.keys(object);
+  return keysList;
+}
+
 addShift(lesson2);
