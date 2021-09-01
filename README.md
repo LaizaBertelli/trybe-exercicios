@@ -60,7 +60,7 @@ In addition to the course exercises, projects will also be carried out. They are
 - [x] Project: Playground Functions
 
 
-[Block 05: JavaScript: DOM, Events and Web Storage ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
+[Block 05: JavaScript: DOM, Events and Web Storage ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
 
 - [x] JavaScript - DOM and Selectors
 - [x] JavaScript - Working with elements
@@ -68,30 +68,30 @@ In addition to the course exercises, projects will also be carried out. They are
 - [x] JavaScript - Web Storage
 - [x] Fundamentals - JavaScript - Projects
 - [x] Project: Art with pixels
-- [ ] Project: To-do List
-- [ ] (bonus)Project: Meme generator
-- [ ] (bonus)Project: Guess the color
-- [ ] (bonus)Porject: Mysterious card
+- [x] Project: To-do List
+- [x] (bonus)Project: Meme generator
+- [x] (bonus)Project: Guess the color
+- [x] (bonus)Porject: Mysterious card
 
-[Block 06: HTML & CSS: Forms, Flexbox and Responsive](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco06)
+[Block 06: HTML & CSS: Forms, Flexbox and Responsive ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco06)
 
-- [ ] HTML & CSS - Forms
-- [ ] JavaScript libraries and Frameworks CSS
-- [ ] Introduction - CSS Flexbox
-- [ ] CSS Flexbox - Part I
-- [ ] CSS Flexbox - Part II
-- [ ] Responsive CSS - Mobile First
-- [ ] Project: Trybewarts
+- [x] HTML & CSS - Forms
+- [x] JavaScript libraries and Frameworks CSS
+- [x] Introduction - CSS Flexbox
+- [x] CSS Flexbox - Part I
+- [x] CSS Flexbox - Part II
+- [x] Responsive CSS - Mobile First
+- [x] Project: Trybewarts
 
 
-[Block 07: Introductio to JavaScript ES6 and Unit tests](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco07)
+[Block 07: Introductio to JavaScript ES6 and Unit tests ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco07)
 
-- [ ] JavaScript ES6 - let, const, arrow functions and template literals
-- [ ] JavaScript ES6 - Objects
-- [ ] Unit Tests in JavaScript
-- [ ] Project: Unit Tests JavaScript
+- [x] JavaScript ES6 - let, const, arrow functions and template literals
+- [x] JavaScript ES6 - Objects
+- [x] Unit Tests in JavaScript
+- [x] Project: Unit Tests JavaScript
 
-[Block 08: Higher-order Functions in JavaScript ES6](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco08)
+[Block 08: Higher-order Functions in JavaScript ES6 ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco08)
 
 - [ ] JavaScript ES6 - Introduction to Higher-order functions
 - [ ] JavaScript ES6 - Higher-order function - forEach, find, some, every, sort

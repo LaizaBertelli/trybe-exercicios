@@ -66,7 +66,7 @@ Além dos exercícios, ao longo do curso também desenvolvemos projetos. Cada um
 - [x] JavaScript - Objetos e funções
 - [x] Projeto: Playground Functions
 
-[Bloco 05: JavaScript: DOM, Eventos e Web Storage ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
+[Bloco 05: JavaScript: DOM, Eventos e Web Storage ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco05)
 
 - [x] JavaScript - DOM e seletores
 - [x] JavaScript - Trabalhando com elementos
@@ -78,7 +78,7 @@ Além dos exercícios, ao longo do curso também desenvolvemos projetos. Cada um
 - [ ] (Bônus)Projeto - Adivinhe a Cor
 - [ ] (Bônus)Projeto - Carta Misteriosa
 
-[Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco06)
+[Bloco 06: HTML e CSS: Forms, Flexbox e Responsivo ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco06)
 
 - [ ] HTML & CSS - Forms
 - [ ] Bibliotecas JavaScript e Frameworks CSS
@@ -88,14 +88,14 @@ Além dos exercícios, ao longo do curso também desenvolvemos projetos. Cada um
 - [ ] CSS Responsivo - Mobiule First
 - [ ] Projeto: Trybewarts
 
-[Bloco 07: Introdução à JavaScript ES6 e Testes Unitários](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco07)
+[Bloco 07: Introdução à JavaScript ES6 e Testes Unitários ✔️](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco07)
 
 - [ ] JavaScript ES6 - let, const, arrow functions e template literals
 - [ ] JavaScript ES6 - Objects
 - [ ] Testes unitários em JavaScript
 - [ ] Projeto: JavaScript Testes Unitários
 
-[Bloco 08: Higher Order Functions do JavaScript ES6](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco08)
+[Bloco 08: Higher Order Functions do JavaScript ES6 ⏳](https://github.com/LaizaBertelli/trybe-exercicios/tree/main/fundamentos/bloco08)
 
 - [ ] JavaScript ES6 - Introdução a Higher Order Functions
 - [ ] JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
