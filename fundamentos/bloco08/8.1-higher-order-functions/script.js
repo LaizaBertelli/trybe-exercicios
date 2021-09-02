@@ -18,7 +18,7 @@ const newEmployees = (callback) => {
   return employees;
 };
 
-// console.log(newEmployees(generateEmail));
+console.log(newEmployees(generateEmail));
 
 // Exercício 2
 function random() {
@@ -28,13 +28,10 @@ function random() {
   return Math.round(rand);
 }
 function check(guess, callback) {
-  if(guess === callback) {
-    return 'Parabéns você ganhou';
-  }
-  return 'Tente novamente';
+  return guess === callback ? 'Parabéns você ganhou' : 'Tente novamente';
 }
 
-// console.log(check(3, random));
+console.log(check(3, random));
 
 // Exercício 2
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
