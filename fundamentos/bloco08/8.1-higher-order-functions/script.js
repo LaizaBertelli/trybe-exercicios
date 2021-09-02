@@ -1,3 +1,4 @@
+// Exercício 1
 function generateEmail (name) {
   const completeName = name.split(' ');
   const email = `${completeName.join('_')}@trybe.com`;
@@ -19,6 +20,7 @@ const newEmployees = (callback) => {
 
 // console.log(newEmployees(generateEmail));
 
+// Exercício 2
 function random() {
   const min = 1;
   const max = 5;
@@ -32,9 +34,25 @@ function check(guess, callback) {
   return 'Tente novamente';
 }
 
-console.log(check(3, random()));
+// console.log(check(3, random));
 
-// const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
-// const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
+// Exercício 2
+const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
+const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
+function checkTest(template, answer){
+  if(answer === 'N.A') {
+    return 0;
+  }
+ return template === answer ? 1 : 0.5;
+};
 
+function fixTests(template, answers, callback) {
+  let count = 0;
+  for (let i = 0; i < template.length; i += 1) {
+    count = count + callback(template[i], answers[i]);
+  }
+  return count;
+}
+
+console.log(fixTests(RIGHT_ANSWERS, STUDENT_ANSWERS, checkTest));
