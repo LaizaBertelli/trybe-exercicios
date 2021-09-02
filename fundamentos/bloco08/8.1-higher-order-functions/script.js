@@ -11,4 +11,19 @@ const newEmployees = () => {
   return employees;
 };
 
-console.log(newEmployees());
+// console.log(newEmployees());
+
+function random() {
+  const min = 1;
+  const max = 5;
+  let rand =  Math.random() * (max - min) + min;
+  return Math.round(rand);
+}
+function check(guess, func) {
+  if(guess === func) {
+    return 'Parabéns você ganhou';
+  }
+  return 'Tente novamente';
+}
+
+console.log(check(3, random()));
