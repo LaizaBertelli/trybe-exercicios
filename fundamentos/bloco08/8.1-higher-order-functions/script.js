@@ -17,22 +17,22 @@ const newEmployees = (callback) => {
   return employees;
 };
 
-console.log(newEmployees(generateEmail));
+// console.log(newEmployees(generateEmail));
 
-// function random() {
-//   const min = 1;
-//   const max = 5;
-//   let rand =  Math.random() * (max - min) + min;
-//   return Math.round(rand);
-// }
-// function check(guess, func) {
-//   if(guess === func) {
-//     return 'Parabéns você ganhou';
-//   }
-//   return 'Tente novamente';
-// }
+function random() {
+  const min = 1;
+  const max = 5;
+  let rand =  Math.random() * (max - min) + min;
+  return Math.round(rand);
+}
+function check(guess, callback) {
+  if(guess === callback) {
+    return 'Parabéns você ganhou';
+  }
+  return 'Tente novamente';
+}
 
-// // console.log(check(3, random()));
+console.log(check(3, random()));
 
 // const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 // const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
