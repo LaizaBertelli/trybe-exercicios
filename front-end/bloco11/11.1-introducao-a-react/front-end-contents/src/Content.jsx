@@ -29,7 +29,7 @@ class Content extends React.Component {
       <div className='contents'>
         {
           conteudos.map(singleContent => {
-            const listParent = <ul>
+            const listParent = <ul className='card'>
               <li key={singleContent.conteudo}>O conteúdo é {singleContent.conteudo}</li>
               <li key={singleContent.status}>Status: {singleContent.status}</li>
               <li key={singleContent.bloco}>Bloco: {singleContent.bloco}</li>
