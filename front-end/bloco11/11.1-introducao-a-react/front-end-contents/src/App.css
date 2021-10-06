@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  width: 100px;
+  height: 150px;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
