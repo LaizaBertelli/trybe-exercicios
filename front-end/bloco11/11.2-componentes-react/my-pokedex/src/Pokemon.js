@@ -25,14 +25,3 @@ Pokemon.propTypes = {
 }
 
 export default Pokemon;
-
-
-//recebe como entrada um objeto que contém informações obrigatórias para serem mostradas para quem usar a aplicação, essas informações devem ser validadas utilizando PropTypes:
-
-/*
-  nome do pokemon
-  tipo do pokemon
-  peso médio do pokemon, acompanhado da unidade de medida usada
-  imagem do pokemon
-
-*/
