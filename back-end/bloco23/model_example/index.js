@@ -7,6 +7,7 @@ app.use(express.json());
 // MODELS
 const Author = require('./models/Author');
 const Book = require('./models/Book');
+const User = require('./models/User');
 
 const PORT = process.env.PORT || 3001;
 
@@ -23,6 +24,17 @@ app.get('/books', async (req, res) => {
   : await Book.getAllBooks();
 
   return res.status(200).json(books);
+});
+app.get('/users', async (_req, res) => {
+  const users = await User.getAll();
+  return res.status(200).json(users);
+});
+app.get('/users/:id', async (req, res) => {
+  const { id } = req.params;
+  const users = await User.getById(id);
+  if (!users) return res.status(404).json({ message: 'User not found' });
+
+  return res.status(200).json(users);
 });
 app.get('/authors/:id', async (req, res) => {
   const { id } = req.params;
@@ -62,6 +74,17 @@ app.post('/books', async (req, res) => {
   await Book.create(title, author_id);
 
   return res.status(200).json({ message: 'Livro cadastrado com sucesso' });
+});
+
+app.post('/users', async (req, res) => {
+  const { firstName, lastName, email, password } = req.body;
+  const validate = User.isValid(firstName, lastName, email, password);
+  if (validate.error) {
+    return res.status(400).json(validate.message);
+  }
+
+  const newUser = await User.create(firstName, lastName, email, password);
+  return res.status(201).json(newUser);
 });
 
 
